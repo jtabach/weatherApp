@@ -10,7 +10,8 @@ weatherApp.directive("weatherReport", function() {
             convertToDate: "&",
             dateFormat: "@",
             getDescription: "&",
-            convertWindSpeed: "&"
+            convertWindSpeed: "&",
+            getImage: "&"
         }
     }
 });

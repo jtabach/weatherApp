@@ -37,6 +37,10 @@ weatherApp.controller('forecastController', ['$scope', '$resource', 'cityService
         return (2.347 * ws).toFixed(1);
     }
     
+    $scope.getImage = function(image) {
+        return "http://openweathermap.org/img/w/" + image + ".png";
+    }
+    
     console.log($scope.weatherResult);
     
     
