@@ -33,6 +33,10 @@ weatherApp.controller('forecastController', ['$scope', '$resource', 'cityService
         return descr;
     }
     
+    $scope.convertToMph = function(ws) {
+        return (2.347 * ws).toFixed(1);
+    }
+    
     console.log($scope.weatherResult);
     
     
