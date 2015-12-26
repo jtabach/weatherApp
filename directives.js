@@ -8,7 +8,8 @@ weatherApp.directive("weatherReport", function() {
             weatherDay: "=",
             convertToStandard: "&",
             convertToDate: "&",
-            dateFormat: "@"
+            dateFormat: "@",
+            getDescription: "&"
         }
     }
 });

@@ -29,4 +29,11 @@ weatherApp.controller('forecastController', ['$scope', '$resource', 'cityService
         return new Date(dt * 1000);
     }
     
+    $scope.getDescription = function(descr) {
+        return descr;
+    }
+    
+    console.log($scope.weatherResult);
+    
+    
 }]);
